@@ -1,0 +1,88 @@
+.mainwrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.HeaderWrapper{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family:  DM Sans;
+    margin-top: 20px;
+
+}
+.headerContainer{
+
+    width: 40%;
+    color: #fff;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+
+    flex-direction: column;
+}
+
+.head{
+    text-align: left;
+    font-size: 58px;
+}
+.subheadTextContainer{
+    margin-top: 40px;
+}
+.subhead{
+    font-size: 22px;
+    text-align: left;
+    font-weight: 700;
+}
+.btnlearnMoreContainer{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.btnLearnMore{
+    background-color: #E93A7D;
+    border: none;
+    /* padding: auto, 5px; */
+    height: 50px;
+    border-radius: 30px;
+    color: #fff;
+    width: 157px;
+    font-size: 18px;
+
+}
+.btnLearnMore:hover{
+    background-color: #ca0c55;
+}
+
+
+@media screen and (max-width:800px) {
+    
+    .HeaderWrapper{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .headerContainer{
+        width: 90%;
+    }
+    .head,.subhead{
+        text-align: center;
+    }
+    .btnlearnMoreContainer{
+        display: block;
+    }
+    .loginWraperinHead{
+        width: 100%;
+        display: flex;
+     align-items: center;
+     justify-content: center;
+    }
+    .headerContainer{
+        align-items: center;
+    }
+   
+}
+@media screen and (max-width:800px) {
+    
+}

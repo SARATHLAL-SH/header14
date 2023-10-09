@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=IBM+Plex+Sans:wght@100&family=Inter:wght@500&family=K2D:wght@800&family=Lato:wght@300;700&family=Love+Ya+Like+A+Sister&family=Poppins:wght@300&display=swap');
+.navmain{
+   font-family:DM Sans;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.menuwraper{
+    width: 35px;
+    display: none;
+}
+.menuImg{
+    width: 100%;
+}
+.navWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+}
+.navContainer{
+    display: flex;
+    flex: 1;
+    color: #fff;
+    font-weight: 600;
+    font-size: 24PX;
+   }
+  
+.NavRightContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    font-size: 18px;
+}
+
+.purchaseContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    background-color:#E93A7D;
+    padding: 0px 10px;
+}
+.purchaseContainer:hover{
+background-color: #ca0c55;
+}
+.overviewContianer,.priceContianer,.blogContianer,.feedbackContianer,.purchaseContainer{
+    margin-left: 35px;
+    color: #fff;
+}
+.purchase{
+    padding: 2px;
+}
+.overview{
+    opacity: 0.3;
+}
+@media screen and (max-width:800px) {
+    .menuwraper{
+     display: block;
+    }
+    .navContainer,.NavRightContainer{
+        display: none;
+    }
+    .active{
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        left: 10%;
+        top: 60px;
+        background-color:#1e06a5;
+        padding: 10px 10px;
+        font-weight: 700;
+        box-shadow: 2px 4px 7px black;
+    }
+    .overviewContianer,.priceContianer,.blogContianer,.feedbackContianer,.purchaseContainer{
+        margin-bottom: 8px;
+        margin-left: 0px;
+    }
+}
